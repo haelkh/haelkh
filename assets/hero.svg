@@ -47,8 +47,8 @@
 
   <text x="70" y="78" class="f small">AI ENGINEER · LLM SYSTEMS · AGENTS · APPLIED MACHINE LEARNING</text>
   <text x="70" y="138" class="f title">Hassan Elkhatib</text>
-  <text x="70" y="182" class="f subtitle">I build production-minded AI systems: retrieval, reasoning, tooling, evaluation, and product delivery.</text>
-  <text x="70" y="212" class="f subtitle">Focused on LLM applications, agentic workflows, applied ML, and intelligent software engineering.</text>
+  <text x="70" y="182" class="f subtitle">I engineer LLM applications, agentic workflows, and applied machine learning.</text>
+  <text x="70" y="212" class="f subtitle">From intelligent retrieval to backend APIs, evaluation, and product delivery.</text>
 
   <g class="floaty">
     <rect x="70" y="248" rx="16" ry="16" width="150" height="40" class="chip"/>
@@ -60,7 +60,7 @@
     <text x="258" y="273" class="f label">Agent Workflows</text>
     <text x="448" y="273" class="f label">RAG</text>
     <text x="582" y="273" class="f label">Applied ML</text>
-    <text x="741" y="273" class="f label">APIs & Data</text>
+    <text x="741" y="273" class="f label">APIs &amp; Data</text>
   </g>
 
   <g filter="url(#glow)">

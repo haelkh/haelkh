@@ -34,6 +34,6 @@
   </g>
   <g class="move m5">
     <rect x="822" y="56" width="338" height="50" rx="16" class="chip"/>
-    <text x="854" y="87" class="f t">Backend Engineering & APIs</text>
+    <text x="854" y="87" class="f t">Backend Engineering &amp; APIs</text>
   </g>
 </svg>

@@ -1,11 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="610" height="226" viewBox="0 0 610 226" role="img" aria-label="EXPLAINABLE X-RAY AI — Chest X-ray classification">
-<defs><linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0F182C"/><stop offset="1" stop-color="#182C4D"/></linearGradient><linearGradient id="stroke" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#8EAAFF" stop-opacity="0"/><stop offset=".56" stop-color="#8EAAFF" stop-opacity=".85"/><stop offset="1" stop-color="#8EAAFF" stop-opacity=".15"/></linearGradient><clipPath id="clip"><rect width="610" height="226" rx="16"/></clipPath><style><![CDATA[@keyframes glide{to{stroke-dashoffset:-50}}.path{animation:glide 4s linear infinite}@keyframes blink{50%{opacity:.25}}.blink{animation:blink 2s ease-in-out infinite}@media(prefers-reduced-motion:reduce){.path,.blink{animation:none}}]]></style></defs>
-<g clip-path="url(#clip)"><rect width="610" height="226" fill="url(#a)"/><g opacity=".19" stroke="#A8C2E2" stroke-width=".7"><path d="M0 45H610 M0 90H610 M0 135H610 M0 180H610 M80 0V226 M160 0V226 M240 0V226 M320 0V226 M400 0V226 M480 0V226 M560 0V226"/></g>
-<path d="M 20,148 C 100,158 166,66 247,130 S 433,201 620,104" fill="none" stroke="url(#stroke)" stroke-width="3" stroke-dasharray="9 7" class="path" opacity=".55"/>
-<rect x="25" y="25" width="211" height="29" rx="7" fill="#172337" stroke="#8EAAFF" stroke-opacity=".55"/><text x="37" y="44" fill="#8EAAFF" font-family="Consolas,Menlo,monospace" font-size="13" letter-spacing=".6">02 / COMPUTER VISION</text>
-<text x="29" y="102" fill="#F5FAFF" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="800" letter-spacing=".3">EXPLAINABLE X-RAY AI</text>
-<text x="29" y="132" fill="#ADC4DF" font-family="Arial,Helvetica,sans-serif" font-size="17">Chest X-ray classification</text>
-<path d="M29 155H561" stroke="#B1C7DE" stroke-opacity=".22"/><text x="29" y="190" fill="#8EAAFF" font-family="Consolas,Menlo,monospace" font-size="14">PyTorch  /  Grad-CAM  /  Evaluation</text>
-<circle cx="567" cy="37" r="7" fill="#8EAAFF" class="blink"/><path d="M565 181L580 181 573 173M580 181 573 189" fill="none" stroke="#8EAAFF" stroke-width="2"/>
-<rect x="1" y="1" width="608" height="224" rx="15" fill="none" stroke="#8EAAFF" stroke-opacity=".45" stroke-width="1.3"/>
-</g></svg>
+<svg width="580" height="340" viewBox="0 0 580 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="580" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111f"/>
+      <stop offset="1" stop-color="#133861"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" stroke="#d0ebff" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+    <style>
+      .f{font-family:'Segoe UI', Ubuntu, Arial, sans-serif;}
+      .k{font-size:13px;letter-spacing:1.6px;fill:#a9d1ff;}
+      .h{font-size:26px;font-weight:700;fill:#fff;}
+      .p{font-size:16px;fill:#dcecff;}
+      .tag{font-size:13px;fill:#d0ebff;}
+      .box{fill:rgba(116,192,255,.12);stroke:rgba(116,192,255,.30);stroke-width:1;}
+      .line{stroke:#74c0ff;stroke-width:2.2;fill:none;stroke-dasharray:8 8;animation:dash 9s linear infinite;}
+      .glow{animation:blink 2.2s ease-in-out infinite;}
+      @keyframes dash{to{stroke-dashoffset:-180}}
+      @keyframes blink{0%,100%{opacity:.5}50%{opacity:1}}
+    </style>
+  </defs>
+  <rect width="580" height="340" rx="24" fill="url(#bg)"/>
+  <rect width="580" height="340" rx="24" fill="url(#grid)"/>
+
+  <text x="28" y="38" class="f k">COMPUTER VISION · EXPLAINABILITY</text>
+  <text x="28" y="84" class="f h">Explainable Chest</text>
+  <text x="28" y="114" class="f h">X-ray AI</text>
+  <text x="28" y="152" class="f p">Training · Evaluation · Grad-CAM ·</text>
+  <text x="28" y="176" class="f p">Inspection of model behavior</text>
+  <rect x="28" y="246" width="140" height="30" rx="12" class="box"/><text x="49" y="265" class="f tag">Computer Vision</text>
+  <rect x="176" y="246" width="96" height="30" rx="12" class="box"/><text x="201" y="265" class="f tag">PyTorch</text>
+  <rect x="280" y="246" width="126" height="30" rx="12" class="box"/><text x="303" y="265" class="f tag">Grad-CAM</text>
+  <rect x="370" y="65" width="155" height="190" rx="20" class="box"/>
+  <rect x="397" y="90" width="101" height="135" rx="18" fill="#dcecff" fill-opacity="0.10" stroke="#9dd4ff" stroke-opacity="0.6"/>
+  <ellipse cx="448" cy="145" rx="30" ry="50" fill="#ffffff" fill-opacity="0.06" stroke="#9dd4ff" stroke-opacity="0.4"/>
+  <path d="M395 219C420 189 474 176 500 206" stroke="#74c0ff" stroke-width="20" stroke-linecap="round" stroke-opacity="0.4" class="glow"/>
+  <path d="M388 108C430 89 473 89 507 122" class="line"/>
+</svg>

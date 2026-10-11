@@ -1,15 +1,66 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="222" viewBox="0 0 1200 222" role="img" aria-label="AI engineering workflow: data and retrieval, models and agents, evaluation and tooling, APIs and products">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#50E4BC"/><stop offset=".5" stop-color="#80B6FF"/><stop offset="1" stop-color="#C4A2FF"/></linearGradient><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0F182C"/><stop offset="1" stop-color="#0A1521"/></linearGradient><style><![CDATA[
-@keyframes dash{to{stroke-dashoffset:-56}}.wire{animation:dash 2.8s linear infinite}@keyframes halo{0%,100%{opacity:.25}50%{opacity:.9}}.dot{animation:halo 2.3s ease-in-out infinite}@media(prefers-reduced-motion:reduce){.wire,.dot{animation:none}}
-]]></style></defs>
-<rect width="1200" height="222" rx="18" fill="url(#b)" stroke="#334663" stroke-width="1.5"/>
-<text x="39" y="37" font-family="Consolas,monospace" font-size="12" fill="#70E2C5" letter-spacing="2.8">THE ENGINEERING LOOP</text>
-<text x="39" y="61" font-family="Arial,sans-serif" font-size="17" fill="#EAF3FF" font-weight="bold">From data to useful systems</text>
-<g stroke="url(#g)" stroke-width="2.5" fill="none" stroke-dasharray="8 6" class="wire"><path d="M265 132H322 M551 132H611 M839 132H899"/></g>
-<g font-family="Arial,sans-serif">
-<g><rect x="40" y="83" width="226" height="112" rx="13" fill="#142336" stroke="#3D6975"/><circle cx="66" cy="108" r="6" fill="#5DEFC8" class="dot"/><text x="83" y="114" fill="#E6F9F7" font-weight="bold" font-size="16">01  DATA</text><text x="64" y="143" fill="#8FA8BF" font-size="13">Retrieval, documents</text><text x="64" y="166" fill="#8FA8BF" font-size="13">and structured sources</text></g>
-<g><rect x="324" y="83" width="226" height="112" rx="13" fill="#142337" stroke="#496491"/><circle cx="350" cy="108" r="6" fill="#7BBAFF" class="dot"/><text x="367" y="114" fill="#E6F3FF" font-weight="bold" font-size="16">02  INTELLIGENCE</text><text x="348" y="143" fill="#9BADCC" font-size="13">LLMs, agents, models</text><text x="348" y="166" fill="#9BADCC" font-size="13">and orchestration</text></g>
-<g><rect x="612" y="83" width="226" height="112" rx="13" fill="#182337" stroke="#64629B"/><circle cx="638" cy="108" r="6" fill="#AAA1FF" class="dot"/><text x="655" y="114" fill="#F3E9FF" font-weight="bold" font-size="16">03  RELIABILITY</text><text x="636" y="143" fill="#ABB1CC" font-size="13">Evaluation, observability</text><text x="636" y="166" fill="#ABB1CC" font-size="13">and iteration</text></g>
-<g><rect x="899" y="83" width="262" height="112" rx="13" fill="#1D2238" stroke="#85659D"/><circle cx="926" cy="108" r="6" fill="#CAA2FD" class="dot"/><text x="943" y="114" fill="#F9E9FF" font-weight="bold" font-size="16">04  DELIVERY</text><text x="924" y="143" fill="#B6B3D0" font-size="13">APIs, automation</text><text x="924" y="166" fill="#B6B3D0" font-size="13">and product integration</text></g>
-</g>
+<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111f"/>
+      <stop offset="1" stop-color="#133861"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" stroke="#d0ebff" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+    <style>
+      .f{font-family:'Segoe UI', Ubuntu, Arial, sans-serif;}
+      .k{font-size:15px;letter-spacing:2px;fill:#a9d1ff;}
+      .h{font-size:30px;font-weight:700;fill:#fff;}
+      .p{font-size:15px;fill:#dcecff;}
+      .box{fill:rgba(116,192,255,.12);stroke:rgba(116,192,255,.32);stroke-width:1.2;}
+      .box2{fill:rgba(208,235,255,.08);stroke:rgba(208,235,255,.24);stroke-width:1.1;}
+      .line{stroke:#74c0ff;stroke-width:2.4;fill:none;stroke-dasharray:10 10;animation:dash 8s linear infinite;}
+      .pulse{animation:blink 2.6s ease-in-out infinite;}
+      @keyframes dash{to{stroke-dashoffset:-200}}
+      @keyframes blink{0%,100%{opacity:.45}50%{opacity:1}}
+    </style>
+  </defs>
+  <rect width="1200" height="430" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="430" rx="24" fill="url(#grid)"/>
+  <text x="40" y="42" class="f k">AI ENGINEERING BLUEPRINT</text>
+  <text x="40" y="82" class="f h">How I think about building reliable AI products</text>
+
+  <rect x="40" y="128" width="170" height="118" rx="20" class="box"/>
+  <text x="64" y="165" class="f h" style="font-size:24px">1. Data</text>
+  <text x="64" y="195" class="f p">sources, schemas,</text>
+  <text x="64" y="216" class="f p">transformations, context</text>
+
+  <rect x="260" y="128" width="170" height="118" rx="20" class="box"/>
+  <text x="284" y="165" class="f h" style="font-size:24px">2. Retrieval</text>
+  <text x="284" y="195" class="f p">search, SQL, memory,</text>
+  <text x="284" y="216" class="f p">ranking, grounding</text>
+
+  <rect x="480" y="128" width="170" height="118" rx="20" class="box"/>
+  <text x="504" y="165" class="f h" style="font-size:24px">3. Reasoning</text>
+  <text x="504" y="195" class="f p">prompts, agent logic,</text>
+  <text x="504" y="216" class="f p">tool selection, routing</text>
+
+  <rect x="700" y="128" width="170" height="118" rx="20" class="box"/>
+  <text x="724" y="165" class="f h" style="font-size:24px">4. Models</text>
+  <text x="724" y="195" class="f p">LLMs, ML models,</text>
+  <text x="724" y="216" class="f p">adaptation, inference</text>
+
+  <rect x="920" y="128" width="240" height="118" rx="20" class="box"/>
+  <text x="944" y="165" class="f h" style="font-size:24px">5. Product Reliability</text>
+  <text x="944" y="195" class="f p">evaluation, guardrails, caching,</text>
+  <text x="944" y="216" class="f p">UX, monitoring, iteration</text>
+
+  <path d="M210 187H260" class="line"/>
+  <path d="M430 187H480" class="line"/>
+  <path d="M650 187H700" class="line"/>
+  <path d="M870 187H920" class="line"/>
+
+  <circle cx="235" cy="187" r="5" fill="#d0ebff" class="pulse"/>
+  <circle cx="455" cy="187" r="5" fill="#d0ebff" class="pulse"/>
+  <circle cx="675" cy="187" r="5" fill="#d0ebff" class="pulse"/>
+  <circle cx="895" cy="187" r="5" fill="#d0ebff" class="pulse"/>
+
+  <rect x="40" y="290" width="1120" height="90" rx="18" class="box2"/>
+  <text x="68" y="325" class="f p">The strongest AI systems are not just “prompted well”. They are engineered across the entire stack:</text>
+  <text x="68" y="351" class="f p">grounded data, robust retrieval, sensible orchestration, reliable model behavior, evaluation discipline, and usable product design.</text>
 </svg>

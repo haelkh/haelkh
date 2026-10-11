@@ -1,61 +1,89 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="388" viewBox="0 0 1200 388" role="img" aria-label="Hassan Elkhatib — AI Engineer. Building intelligent systems from models to production.">
-<defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080E1D"/><stop offset=".65" stop-color="#10152C"/><stop offset="1" stop-color="#07141E"/></linearGradient>
-  <linearGradient id="aurora" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#53F4CE"/><stop offset=".56" stop-color="#67A8FF"/><stop offset="1" stop-color="#B98AFF"/></linearGradient>
-  <radialGradient id="glow"><stop stop-color="#46EED0" stop-opacity=".22"/><stop offset="1" stop-color="#46EED0" stop-opacity="0"/></radialGradient>
-  <filter id="blur"><feGaussianBlur stdDeviation="21"/></filter>
-  <clipPath id="frame"><rect width="1200" height="388" rx="21"/></clipPath>
-  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#9BB9DA" stroke-opacity=".055" stroke-width=".85"/></pattern>
-  <style><![CDATA[
-  @keyframes orbit { to { transform:rotate(360deg) } }
-  @keyframes rev { to { transform:rotate(-360deg) } }
-  @keyframes flicker { 0%,45%,100%{opacity:1} 50%,95%{opacity:.13} }
-  @keyframes bob { 0%,100%{transform:translateY(0px)} 50%{transform:translateY(-5px)} }
-  @keyframes pulse { 0%,100%{opacity:.4} 50%{opacity:1} }
-  .orbit { transform-origin:982px 187px; animation:orbit 30s linear infinite; }
-  .orbit-rev { transform-origin:982px 187px; animation:rev 24s linear infinite; }
-  .cursor { animation:flicker 1.1s step-end infinite; }
-  .bob { animation:bob 6s ease-in-out infinite; }
-  .pulse { animation:pulse 3.5s ease-in-out infinite; }
-  @media (prefers-reduced-motion:reduce){ .orbit,.orbit-rev,.cursor,.bob,.pulse{animation:none} }
-  ]]></style>
-</defs>
-<g clip-path="url(#frame)">
- <rect width="1200" height="388" fill="url(#bg)"/>
- <rect width="1200" height="388" fill="url(#grid)"/>
- <circle cx="1040" cy="155" r="320" fill="url(#glow)"/>
- <ellipse cx="1000" cy="220" rx="180" ry="80" fill="#5474D0" opacity=".12" filter="url(#blur)"/>
- <rect x=".75" y=".75" width="1198.5" height="386.5" rx="20" fill="none" stroke="#6C83AF" stroke-opacity=".32" stroke-width="1.5"/>
- <path d="M55 27H113M55 27V47M1145 340V361H1093" fill="none" stroke="#58EACB" stroke-opacity=".8" stroke-width="2"/>
- <circle cx="67" cy="67" r="4" fill="#57F2CD"/><text x="81" y="72" font-size="13" fill="#A1B5D6" font-family="Consolas,Menlo,monospace" letter-spacing="2">ENGINEER / RESEARCHER / BUILDER</text>
- <rect x="55" y="99" width="4" height="114" rx="2" fill="url(#aurora)"/>
- <text x="75" y="147" fill="#F3F9FF" font-family="Arial,Helvetica,sans-serif" font-weight="800" font-size="55" letter-spacing="-1.6">HASSAN</text>
- <text x="75" y="206" fill="url(#aurora)" font-family="Arial,Helvetica,sans-serif" font-weight="800" font-size="55" letter-spacing="-1.6">ELKHATIB</text>
- <text x="75" y="246" fill="#D0DDEE" font-size="20" font-family="Arial,Helvetica,sans-serif" font-weight="500">AI Engineer  <tspan fill="#536987">/</tspan>  LLM Systems  <tspan fill="#536987">/</tspan>  Intelligent Automation</text>
- <rect x="75" y="274" width="608" height="41" rx="9" fill="#13273B" stroke="#35546D" stroke-opacity=".72"/>
- <circle cx="96" cy="294" r="3.5" fill="#65F5D3"/>
- <text x="113" y="300" fill="#BFEBDD" font-family="Consolas,Menlo,monospace" font-size="15">$ build systems that make intelligence useful</text>
- <rect x="645" y="287" width="8" height="16" fill="#67F5D2" class="cursor"/>
- <g font-family="Consolas,Menlo,monospace" font-size="12" letter-spacing="1.4" fill="#94AAC8">
-  <text x="75" y="351">AGENTS &amp; ORCHESTRATION</text><circle cx="281" cy="347" r="2" fill="#55E7CF"/>
-  <text x="298" y="351">RETRIEVAL &amp; SEARCH</text><circle cx="490" cy="347" r="2" fill="#55E7CF"/>
-  <text x="506" y="351">APPLIED ML</text>
- </g>
- <!-- Right-side system diagram -->
- <g class="orbit" fill="none" stroke="#72C7D9" stroke-opacity=".33"><ellipse cx="982" cy="187" rx="137" ry="121" stroke-width="1.2" stroke-dasharray="7 9"/><circle cx="982" cy="187" r="93" stroke="#85A1E7" stroke-opacity=".26"/></g>
- <g class="orbit-rev" fill="none" stroke="#8A92E8" stroke-opacity=".4"><ellipse cx="982" cy="187" rx="160" ry="85" transform="rotate(-24 982 187)" stroke-width="1.2" stroke-dasharray="2 10"/></g>
- <g stroke="#65DCCF" stroke-opacity=".47" stroke-width="1.6">
- <path d="M982 187 L878 126 M982 187 L1083 122 M982 187 L1095 250 M982 187 L864 258"/>
- </g>
- <g class="bob"><path d="M982 127 1035 157V217L982 247 929 217V157Z" fill="#122C3B" stroke="url(#aurora)" stroke-width="2"/><path d="M982 146 1018 167V207L982 228 946 207V167Z" fill="none" stroke="#65E9D4" opacity=".4"/><text x="982" y="185" text-anchor="middle" fill="#E9FEFF" font-family="Arial,sans-serif" font-size="21" font-weight="700">AI</text><text x="982" y="202" text-anchor="middle" fill="#85EAD8" font-family="Consolas,monospace" font-size="8.5" letter-spacing="1">SYSTEMS</text></g>
- <g font-family="Consolas,Menlo,monospace" font-size="13" text-anchor="middle">
-  <g><circle cx="865" cy="126" r="28" fill="#0E2132" stroke="#4A92C0"/><text x="865" y="131" fill="#C7ECFF">LLMs</text></g>
-  <g><circle cx="1097" cy="122" r="29" fill="#0E2132" stroke="#7697DC"/><text x="1097" y="127" fill="#D3E1FF">RAG</text></g>
-  <g><circle cx="1102" cy="258" r="32" fill="#0E2132" stroke="#805EC1"/><text x="1102" y="263" fill="#D9CAFF">API</text></g>
-  <g><circle cx="859" cy="261" r="32" fill="#0E2132" stroke="#45D4B2"/><text x="859" y="266" fill="#B5FFE8">ML</text></g>
- </g>
- <g class="pulse"><circle cx="982" cy="55" r="5" fill="#75F9DA"/><circle cx="1134" cy="196" r="3" fill="#B9A0FF"/><circle cx="838" cy="201" r="4" fill="#72A7FC"/></g>
- <text x="982" y="350" text-anchor="middle" fill="#6989A8" font-size="10" letter-spacing="3" font-family="Consolas,monospace">DESIGN  ·  SHIP  ·  ITERATE</text>
- <rect x="0" y="384" width="1200" height="4" fill="url(#aurora)" opacity=".85"/>
-</g>
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111f"/>
+      <stop offset="1" stop-color="#0f2d55"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#74c0ff"/>
+      <stop offset="1" stop-color="#4dabf7"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#d0ebff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#4dabf7" stop-opacity="0.85"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" stroke="#d0ebff" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+    <style>
+      .f { font-family: 'Segoe UI', Ubuntu, Arial, sans-serif; }
+      .small { font-size: 18px; letter-spacing: 2px; fill: #b6d4f7; }
+      .title { font-size: 38px; font-weight: 700; fill: white; }
+      .subtitle { font-size: 18px; fill: #dcecff; }
+      .label { font-size: 15px; fill: #c8e1ff; }
+      .chip { fill: rgba(116,192,255,0.12); stroke: rgba(116,192,255,0.35); stroke-width: 1; }
+      .pulse { animation: pulse 3.2s ease-in-out infinite; transform-origin: center; }
+      .floaty { animation: floaty 6s ease-in-out infinite; }
+      .flow1 { stroke-dasharray: 10 12; animation: dash 10s linear infinite; }
+      .flow2 { stroke-dasharray: 8 10; animation: dash 8s linear infinite reverse; }
+      .node { animation: blink 2.6s ease-in-out infinite; }
+      @keyframes dash { to { stroke-dashoffset: -300; } }
+      @keyframes pulse { 0%,100% { opacity: .75; } 50% { opacity: 1; } }
+      @keyframes floaty { 0%,100% { transform: translateY(0px); } 50% { transform: translateY(-6px); } }
+      @keyframes blink { 0%,100% { opacity: .4; } 50% { opacity: 1; } }
+    </style>
+  </defs>
+  <rect width="1280" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="360" rx="24" fill="url(#grid)"/>
+  <circle cx="1090" cy="85" r="170" fill="#4dabf7" fill-opacity="0.08" class="pulse"/>
+  <circle cx="1090" cy="85" r="122" fill="#74c0ff" fill-opacity="0.06" class="pulse"/>
+
+  <text x="70" y="78" class="f small">AI ENGINEER · LLM SYSTEMS · AGENTS · APPLIED MACHINE LEARNING</text>
+  <text x="70" y="138" class="f title">Hassan Elkhatib</text>
+  <text x="70" y="182" class="f subtitle">I build production-minded AI systems: retrieval, reasoning, tooling, evaluation, and product delivery.</text>
+  <text x="70" y="212" class="f subtitle">Focused on LLM applications, agentic workflows, applied ML, and intelligent software engineering.</text>
+
+  <g class="floaty">
+    <rect x="70" y="248" rx="16" ry="16" width="150" height="40" class="chip"/>
+    <rect x="232" y="248" rx="16" ry="16" width="164" height="40" class="chip"/>
+    <rect x="408" y="248" rx="16" ry="16" width="128" height="40" class="chip"/>
+    <rect x="548" y="248" rx="16" ry="16" width="150" height="40" class="chip"/>
+    <rect x="710" y="248" rx="16" ry="16" width="138" height="40" class="chip"/>
+    <text x="95" y="273" class="f label">LLM Systems</text>
+    <text x="258" y="273" class="f label">Agent Workflows</text>
+    <text x="448" y="273" class="f label">RAG</text>
+    <text x="582" y="273" class="f label">Applied ML</text>
+    <text x="741" y="273" class="f label">APIs & Data</text>
+  </g>
+
+  <g filter="url(#glow)">
+    <path d="M820 220C860 160 905 138 960 136C1005 135 1042 152 1074 183C1105 214 1140 226 1187 223" stroke="url(#accent)" stroke-width="3.2" fill="none" class="flow1" stroke-linecap="round"/>
+    <path d="M840 120C873 98 912 87 954 91C1007 95 1052 119 1091 160C1128 198 1162 217 1210 228" stroke="url(#accent2)" stroke-width="2.8" fill="none" class="flow2" stroke-linecap="round"/>
+    <path d="M832 275C883 250 931 244 981 253C1030 262 1084 282 1138 290" stroke="#74c0ff" stroke-opacity="0.75" stroke-width="2.4" fill="none" class="flow2"/>
+
+    <g>
+      <line x1="905" y1="120" x2="981" y2="84" stroke="#9dd4ff" stroke-opacity="0.75"/>
+      <line x1="905" y1="120" x2="978" y2="150" stroke="#9dd4ff" stroke-opacity="0.75"/>
+      <line x1="905" y1="120" x2="980" y2="215" stroke="#9dd4ff" stroke-opacity="0.75"/>
+      <line x1="981" y1="84" x2="1067" y2="116" stroke="#9dd4ff" stroke-opacity="0.75"/>
+      <line x1="981" y1="84" x2="1063" y2="194" stroke="#9dd4ff" stroke-opacity="0.75"/>
+      <line x1="978" y1="150" x2="1067" y2="116" stroke="#9dd4ff" stroke-opacity="0.75"/>
+      <line x1="978" y1="150" x2="1063" y2="194" stroke="#9dd4ff" stroke-opacity="0.75"/>
+      <line x1="980" y1="215" x2="1063" y2="194" stroke="#9dd4ff" stroke-opacity="0.75"/>
+      <line x1="980" y1="215" x2="1066" y2="270" stroke="#9dd4ff" stroke-opacity="0.75"/>
+      <line x1="1067" y1="116" x2="1160" y2="155" stroke="#9dd4ff" stroke-opacity="0.75"/>
+      <line x1="1063" y1="194" x2="1160" y2="155" stroke="#9dd4ff" stroke-opacity="0.75"/>
+      <line x1="1063" y1="194" x2="1158" y2="235" stroke="#9dd4ff" stroke-opacity="0.75"/>
+      <line x1="1066" y1="270" x2="1158" y2="235" stroke="#9dd4ff" stroke-opacity="0.75"/>
+
+      <circle cx="905" cy="120" r="6" fill="#d0ebff" class="node"/><circle cx="981" cy="84" r="6" fill="#d0ebff" class="node"/><circle cx="978" cy="150" r="6" fill="#d0ebff" class="node"/><circle cx="980" cy="215" r="6" fill="#d0ebff" class="node"/><circle cx="1067" cy="116" r="6" fill="#d0ebff" class="node"/><circle cx="1063" cy="194" r="6" fill="#d0ebff" class="node"/><circle cx="1066" cy="270" r="6" fill="#d0ebff" class="node"/><circle cx="1160" cy="155" r="6" fill="#d0ebff" class="node"/><circle cx="1158" cy="235" r="6" fill="#d0ebff" class="node"/>
+    </g>
+  </g>
 </svg>

@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="./assets/hero.svg" alt="Hassan Elkhatib — AI Engineer | LLM Systems | Agents | Applied Machine Learning" width="100%" />
+<img src="./assets/hero.gif" alt="Hassan Elkhatib — AI Engineer | LLM Systems | Agents | Applied Machine Learning" width="100%" />
 
-<img src="./assets/focus.svg" alt="LLM systems, agents, retrieval, machine learning, backend engineering, product delivery" width="94%" />
+<img src="./assets/focus.gif" alt="LLM systems, agents, retrieval, machine learning, backend engineering, product delivery" width="94%" />
 
 **AI Engineer @ UniMade Solutions** &nbsp;·&nbsp; **M2 Artificial Intelligence, Lebanese University** &nbsp;·&nbsp; **Lebanon**
 
@@ -34,14 +34,14 @@ Published projects link to source code. Private work is presented as a **technic
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/haelkh/ethrocore-assessment"><img src="./assets/arabic-tts.svg" alt="Classical Arabic TTS project" width="100%" /></a>
+<a href="https://github.com/haelkh/ethrocore-assessment"><img src="./assets/arabic-tts.png" alt="Classical Arabic TTS project" width="100%" /></a>
 <br/>
 <b><a href="https://github.com/haelkh/ethrocore-assessment">Pocket TTS → Classical Arabic</a></b><br/>
 Adapted an English-first neural speech pipeline into a Classical Arabic synthesis workflow using Romanization, conditional flow matching, LoRA, and audio-latent preprocessing.
 <br/><br/><code>Speech AI</code> <code>Fine-tuning</code> <code>PyTorch</code>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/haelkh/Pneumonia"><img src="./assets/vision.svg" alt="Explainable X-ray classification project" width="100%" /></a>
+<a href="https://github.com/haelkh/Pneumonia"><img src="./assets/vision.png" alt="Explainable X-ray classification project" width="100%" /></a>
 <br/>
 <b><a href="https://github.com/haelkh/Pneumonia">Explainable Chest X-ray AI</a></b><br/>
 Built a computer-vision workflow for pneumonia classification with training, evaluation, and Grad-CAM visual explanations to inspect model behavior.
@@ -50,14 +50,14 @@ Built a computer-vision workflow for pneumonia classification with training, eva
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/haelkh/stockMarketPred"><img src="./assets/forecast.svg" alt="Financial market ML project" width="100%" /></a>
+<a href="https://github.com/haelkh/stockMarketPred"><img src="./assets/forecast.png" alt="Financial market ML project" width="100%" /></a>
 <br/>
 <b><a href="https://github.com/haelkh/stockMarketPred">Financial Time-Series ML</a></b><br/>
 Explored market-direction prediction with LSTM and Random Forest models, technical-indicator feature engineering, and a Python data pipeline.
 <br/><br/><code>Time Series</code> <code>TensorFlow/Keras</code> <code>scikit-learn</code>
 </td>
 <td width="50%" valign="top">
-<img src="./assets/financial-agent.svg" alt="Private agentic financial intelligence platform" width="100%" />
+<img src="./assets/financial-agent.png" alt="Private agentic financial intelligence platform" width="100%" />
 <br/>
 <b>Agentic Financial Intelligence Assistant</b> · <em>Private AI project</em><br/>
 Architected an LLM-powered financial assistant that connects natural-language questions to structured data and API tools through agentic workflows. Focus areas include NL→SQL, routing, semantic caching, and production-oriented answer generation.
@@ -71,7 +71,7 @@ Architected an LLM-powered financial assistant that connects natural-language qu
 ## AI engineering blueprint
 
 <div align="center">
-<img src="./assets/pipeline.svg" alt="Blueprint view of an AI engineering system: data, retrieval, reasoning, tools, evaluation, product" width="100%" />
+<img src="./assets/pipeline.gif" alt="Blueprint view of an AI engineering system: data, retrieval, reasoning, tools, evaluation, product" width="100%" />
 </div>
 
 **My engineering approach:** high-quality AI products come from the interaction between **data quality, retrieval quality, model behavior, tool design, evaluation discipline, and user-facing delivery**.
@@ -101,6 +101,6 @@ I’m interested in **AI engineering opportunities**, especially roles involving
 [![GitHub](https://img.shields.io/badge/VIEW_REPOSITORIES-0C1628?style=for-the-badge&logo=github&logoColor=white)](https://github.com/haelkh?tab=repositories)
 [![LinkedIn](https://img.shields.io/badge/CONNECT_ON_LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hassanelkhatibcs/)
 
-<sub>Built with custom animated SVG artwork · no fake metrics, visitor counters, or inflated claims.</sub>
+<sub>Built with self-hosted animated GIFs and vector-derived graphics · no fake metrics, visitor counters, or inflated claims.</sub>
 
 </div>

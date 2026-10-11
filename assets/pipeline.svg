@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="222" viewBox="0 0 1200 222" role="img" aria-label="AI engineering workflow: data and retrieval, models and agents, evaluation and tooling, APIs and products">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#50E4BC"/><stop offset=".5" stop-color="#80B6FF"/><stop offset="1" stop-color="#C4A2FF"/></linearGradient><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0F182C"/><stop offset="1" stop-color="#0A1521"/></linearGradient><style><![CDATA[
+@keyframes dash{to{stroke-dashoffset:-56}}.wire{animation:dash 2.8s linear infinite}@keyframes halo{0%,100%{opacity:.25}50%{opacity:.9}}.dot{animation:halo 2.3s ease-in-out infinite}@media(prefers-reduced-motion:reduce){.wire,.dot{animation:none}}
+]]></style></defs>
+<rect width="1200" height="222" rx="18" fill="url(#b)" stroke="#334663" stroke-width="1.5"/>
+<text x="39" y="37" font-family="Consolas,monospace" font-size="12" fill="#70E2C5" letter-spacing="2.8">THE ENGINEERING LOOP</text>
+<text x="39" y="61" font-family="Arial,sans-serif" font-size="17" fill="#EAF3FF" font-weight="bold">From data to useful systems</text>
+<g stroke="url(#g)" stroke-width="2.5" fill="none" stroke-dasharray="8 6" class="wire"><path d="M265 132H322 M551 132H611 M839 132H899"/></g>
+<g font-family="Arial,sans-serif">
+<g><rect x="40" y="83" width="226" height="112" rx="13" fill="#142336" stroke="#3D6975"/><circle cx="66" cy="108" r="6" fill="#5DEFC8" class="dot"/><text x="83" y="114" fill="#E6F9F7" font-weight="bold" font-size="16">01  DATA</text><text x="64" y="143" fill="#8FA8BF" font-size="13">Retrieval, documents</text><text x="64" y="166" fill="#8FA8BF" font-size="13">and structured sources</text></g>
+<g><rect x="324" y="83" width="226" height="112" rx="13" fill="#142337" stroke="#496491"/><circle cx="350" cy="108" r="6" fill="#7BBAFF" class="dot"/><text x="367" y="114" fill="#E6F3FF" font-weight="bold" font-size="16">02  INTELLIGENCE</text><text x="348" y="143" fill="#9BADCC" font-size="13">LLMs, agents, models</text><text x="348" y="166" fill="#9BADCC" font-size="13">and orchestration</text></g>
+<g><rect x="612" y="83" width="226" height="112" rx="13" fill="#182337" stroke="#64629B"/><circle cx="638" cy="108" r="6" fill="#AAA1FF" class="dot"/><text x="655" y="114" fill="#F3E9FF" font-weight="bold" font-size="16">03  RELIABILITY</text><text x="636" y="143" fill="#ABB1CC" font-size="13">Evaluation, observability</text><text x="636" y="166" fill="#ABB1CC" font-size="13">and iteration</text></g>
+<g><rect x="899" y="83" width="262" height="112" rx="13" fill="#1D2238" stroke="#85659D"/><circle cx="926" cy="108" r="6" fill="#CAA2FD" class="dot"/><text x="943" y="114" fill="#F9E9FF" font-weight="bold" font-size="16">04  DELIVERY</text><text x="924" y="143" fill="#B6B3D0" font-size="13">APIs, automation</text><text x="924" y="166" fill="#B6B3D0" font-size="13">and product integration</text></g>
+</g>
+</svg>

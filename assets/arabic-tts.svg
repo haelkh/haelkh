@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="610" height="226" viewBox="0 0 610 226" role="img" aria-label="CLASSICAL ARABIC TTS — Pocket TTS adaptation">
+<defs><linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0F182C"/><stop offset="1" stop-color="#0B2D32"/></linearGradient><linearGradient id="stroke" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#56ECD0" stop-opacity="0"/><stop offset=".56" stop-color="#56ECD0" stop-opacity=".85"/><stop offset="1" stop-color="#56ECD0" stop-opacity=".15"/></linearGradient><clipPath id="clip"><rect width="610" height="226" rx="16"/></clipPath><style><![CDATA[@keyframes glide{to{stroke-dashoffset:-50}}.path{animation:glide 4s linear infinite}@keyframes blink{50%{opacity:.25}}.blink{animation:blink 2s ease-in-out infinite}@media(prefers-reduced-motion:reduce){.path,.blink{animation:none}}]]></style></defs>
+<g clip-path="url(#clip)"><rect width="610" height="226" fill="url(#a)"/><g opacity=".19" stroke="#A8C2E2" stroke-width=".7"><path d="M0 45H610 M0 90H610 M0 135H610 M0 180H610 M80 0V226 M160 0V226 M240 0V226 M320 0V226 M400 0V226 M480 0V226 M560 0V226"/></g>
+<path d="M 20,168 C 132,92 175,217 302,129 S 435,101 620,146" fill="none" stroke="url(#stroke)" stroke-width="3" stroke-dasharray="9 7" class="path" opacity=".55"/>
+<rect x="25" y="25" width="211" height="29" rx="7" fill="#172337" stroke="#56ECD0" stroke-opacity=".55"/><text x="37" y="44" fill="#56ECD0" font-family="Consolas,Menlo,monospace" font-size="13" letter-spacing=".6">01 / SPEECH AI</text>
+<text x="29" y="102" fill="#F5FAFF" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="800" letter-spacing=".3">CLASSICAL ARABIC TTS</text>
+<text x="29" y="132" fill="#ADC4DF" font-family="Arial,Helvetica,sans-serif" font-size="17">Pocket TTS adaptation</text>
+<path d="M29 155H561" stroke="#B1C7DE" stroke-opacity=".22"/><text x="29" y="190" fill="#56ECD0" font-family="Consolas,Menlo,monospace" font-size="14">LoRA  /  Flow Matching  /  Romanization</text>
+<circle cx="567" cy="37" r="7" fill="#56ECD0" class="blink"/><path d="M565 181L580 181 573 173M580 181 573 189" fill="none" stroke="#56ECD0" stroke-width="2"/>
+<rect x="1" y="1" width="608" height="224" rx="15" fill="none" stroke="#56ECD0" stroke-opacity=".45" stroke-width="1.3"/>
+</g></svg>
